@@ -184,10 +184,24 @@ jQuery(function ($) {
                     }
                 });
 
+
+
                 
 
             });
 			
+$(document).ready(function(){
+	$("#button1").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#section1").offset().top
+		}, 400);
+	});
+	$("#button2").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#contact-us-cs").offset().top
+		}, 400);
+	});
+});
 			
 			
 
@@ -203,3 +217,4 @@ jQuery(function ($) {
 	  }
 	);
 	wow.init();
+
