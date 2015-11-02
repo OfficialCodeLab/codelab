@@ -201,6 +201,16 @@ $(document).ready(function(){
 		scrollTop: $("#contact-us-cs").offset().top
 		}, 400);
 	});
+	$("#button4").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#contact-us-cs").offset().top
+		}, 1000);
+	});
+	$("#button5").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#section1").offset().top
+		}, 500);
+	});
 });
 			
 			

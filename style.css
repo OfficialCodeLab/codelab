@@ -774,6 +774,7 @@ input.contact {
 .team-boxes {
 	background:#fff;
 	padding:0;
+	border: none !important;
 }
 .team-boxes .separator {
 	height:1px;
