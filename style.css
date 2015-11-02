@@ -843,7 +843,8 @@ input.contact {
 	overflow:hidden;
 	position:relative;
 	text-align:center;
-	background:#303543;
+	/*background:#303543;*/
+	background-color: rgba(0,0,0,0);
 }
 .overlay-image .mask,.overlay-image .content {
 	width:100%;
@@ -885,6 +886,7 @@ input.contact {
 	padding:0 20px;
 }
 .view-overlay:hover img {
+	
 	-webkit-transform:scale(10);
 	-moz-transform:scale(10);
 	-o-transform:scale(10);
@@ -893,6 +895,9 @@ input.contact {
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter:alpha(opacity=0);
 	opacity:0;
+}
+.overlay-image:hover{
+	background:#303543;
 }
 .view-overlay:hover .mask {
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
